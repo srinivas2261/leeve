@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Outfit", serif;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+    align-items: center;
+}
+.nav h1{
+    font-family: "Pacifico", serif;
+    font-size: clamp(18px,4vw,28px);
+}
+.nav ul{
+    display: flex;
+
+}
+.nav ul li{
+    list-style-type: none;
+    padding:  10px 20px;
+    display: inline;
+    border-radius: 5px;
+}
+li a{
+    list-style: none;
+    text-decoration: none;
+    color: #000;
+    background: #e5f89c;
+    padding: 10px 20px;
+    border-radius: 5px;
+   
+}
+ .nav ul li:hover{
+    background: #e5f89c;
+   
+}
+
+
+.matter h1{
+  
+    font-weight:  300;
+    font-size: clamp(40px, 5vw, 90px);
+    width: clamp(250px, 50vw, 600px);
+    margin-bottom: 60px;
+    margin: 30px;
+
+}
+ 
+.main{
+
+    display: flex;
+    margin: 30px ;
+    gap: 20px; /* gap between img and matter */
+
+}
+ .main .img-box{
+    background: url(/mainimg.jpg);
+    background-position:center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 76%;
+
+}
+  .main .middle {
+    height: 400px;
+    width: 24%;
+    background: #e5f89c;
+    position: relative;
+    padding: 25px 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.main-matter h2{
+   font-weight: 500;
+   font-size: 40px;
+}
+ .middle img{
+ width: 60px;
+}
+
+
+.nav2{
+    width: 180px;
+    height: 60px;
+    align-items: center;
+    display: flex;
+    margin: 30px ;
+}
+.nav2 .but{
+    display: flex;
+    gap: 60px;
+    padding: 20px 10px;
+    background:#ecedeb;
+    margin-right: 236.5px ;
+   
+}
+.nav2 h6,h5{
+    font-size: 20px;
+    font-weight: 500;
+    
+}
+.bottom-matter{
+    display: flex;
+}
+.paragraph{
+    font-size: 35px;
+    width:74%;
+    margin: 0 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}      
+.bottom-matter h1, h6{
+font-weight: 500;
+
+}
+ .img-box2{
+    background: url(/img1_n.jpg);
+    background-position:center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 24%;
+    height: 500px; 
+    margin: 30px;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav3 ul{
+    display: flex;
+    list-style-type: none; 
+}
+.nav3 li{
+    padding: 20px;
+    cursor: pointer;
+    
+}
+.h66{
+    font-size: 20px;
+    margin: 30px;
+
+}
+
+/* ------------------------------------ responsive Ness ----------------------------------- */
+
